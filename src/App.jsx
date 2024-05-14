@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./auth/Login";
-import UserRegistration from "./auth/Register";
+import Registration from "./auth/Registration";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Blogs from "./components/Blogs";
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="login" element={<Login />} />
-          <Route path="register" element={<UserRegistration />} />
+          <Route path="register" element={<Registration />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </AuthWrapper>

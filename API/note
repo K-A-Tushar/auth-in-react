@@ -1,0 +1,15 @@
+// $username = "codersxc_authtestroot";
+// $password = "authtestroot12345698";
+// $dbname = "codersxc_authtest";
+// $conn = new mysqli('localhost', 't_root', 'T_React!@#$123', 'codersxc_t_react');
+
+$DB_HOST = "localhost";
+$DB_USER = "root";
+$DB_PASSWORD = "";
+$DB_NAME = "web_ecomm";
+
+
+$DB_HOST = "localhost";
+$DB_USER = "codersxc_t_root";
+$DB_PASSWORD = "T_React!@#$123";
+$DB_NAME = "codersxc_t_react";
